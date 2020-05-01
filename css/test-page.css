@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Inter&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Inter&family=Pacifico&display=swap');
 
 :root {
     font-family: 'Inter', sans-serif;
@@ -12,4 +12,52 @@ body {
 p {
     margin: 0;
     padding: 0;
+}
+
+@media(min-width: 300px) {
+    .blocks-with-questions-and-answers {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+}
+
+@media(min-width: 700px) {
+    .blocks-with-questions-and-answers {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.blocks-with-questions-and-answers .questions-and-answers{
+    display: flex;
+    flex-direction: column;
+}
+
+.blocks-with-questions-and-answers .questions-and-answers p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 1rem; 
+}
+
+.button{
+    display:flex;
+    justify-content: center;
+    margin: 2rem 0 2rem 0;
+}
+
+[type=submit] {
+    width: 10em;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: black;
+    background-color: white;
+    
+}
+
+[type=submit]:hover {
+    color: white;
+    background-color: black;
+    transition: 1s;
 }

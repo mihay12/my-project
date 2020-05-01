@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Inter&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Inter&family=Pacifico&display=swap');
 
 :root {
     font-family: 'Inter', sans-serif;
@@ -22,6 +22,11 @@ p {
 
 .blocks-with-text .brief-description {
     display: flex;
+}
+
+.blocks-with-text .brief-description div p:first-child{
+    font-family: 'Pacifico', cursive;
+    margin-top:2.5rem;
 }
 
 @media(min-width: 300px) {
