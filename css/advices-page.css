@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Inter&family=Pacifico&display=swap');
+
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.content .text-block span{
+    font-family: 'Pacifico', cursive;
+    margin-top:2rem;
+}
+
+.content .text-block p:first-child{
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    margin-top:2rem; 
+}
+
+.content{
+    margin-bottom:2.5rem; 
+}

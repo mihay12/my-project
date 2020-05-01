@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Inter&display=swap'); 
+
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-family: 'Aguafina Script', cursive;
+    font-size: 5rem;
+    text-align: center;
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+header .menu a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 20px;
+}
+
+header .menu a:hover {
+    color: white;
+    background-color: black;
+    transition: 1s;
+}
+
+header .title-and-photo h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2rem 0 1rem 0;
+}
+
+header .title-and-photo img {
+    width: 100%;
+}
+
+header {
+    margin-bottom: 2rem;
+}

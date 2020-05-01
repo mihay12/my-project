@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Inter&display=swap'); 
+
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
