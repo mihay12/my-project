@@ -43,3 +43,21 @@ header .title-and-photo img {
 header {
     margin-bottom: 2rem;
 }
+
+header nav div  {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav div ul li{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 1px 50px;
+}
+
+header nav div ul li:hover {
+    color: white;
+    background-color: grey;
+    transition: 1s;
+}
