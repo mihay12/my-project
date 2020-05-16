@@ -29,6 +29,10 @@ function checkAnswer(event){
 
     const testResult = document.querySelector(".result");
 
+    document.querySelector(".first-result").style.display = "block";
+    document.querySelector(".second-result").style.display = "block";
+    document.querySelector(".third-result").style.display = "block";
+    document.querySelector(".fourth-result").style.display = "block";
     if(firstAnswerToTheFirstQuestion) {
         if(firstAnswerToTheSecondQuestion) {
             if(firstAnswerToTheThirdQuestion) {
@@ -2942,4 +2946,6 @@ function checkAnswer(event){
             }
         }
     }
+
+    
 }
