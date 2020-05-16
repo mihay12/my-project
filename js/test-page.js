@@ -29,10 +29,14 @@ function checkAnswer(event){
 
     const testResult = document.querySelector(".result");
 
-    document.querySelector(".first-result").style.display = "block";
-    document.querySelector(".second-result").style.display = "block";
-    document.querySelector(".third-result").style.display = "block";
-    document.querySelector(".fourth-result").style.display = "block";
+    document.querySelector(".blocks-with-questions-and-answers").remove();
+    document.querySelector(".button").remove();
+    document.querySelector(".title-and-photo").remove();
+    
+    resultStyle(".first-result");
+    resultStyle(".second-result");
+    resultStyle(".third-result");
+    resultStyle(".fourth-result");
     if(firstAnswerToTheFirstQuestion) {
         if(firstAnswerToTheSecondQuestion) {
             if(firstAnswerToTheThirdQuestion) {
@@ -2948,4 +2952,10 @@ function checkAnswer(event){
     }
 
     
+}
+
+function resultStyle(selector){
+    document.querySelector(selector).style.display = "flex";
+    document.querySelector(selector).style.flexDirection = "column";
+    document.querySelector(selector).style.alignItems = "center";
 }
