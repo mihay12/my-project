@@ -107,4 +107,5 @@ function resultStyle(selector) {
   document.querySelector(selector).style.display = "flex";
   document.querySelector(selector).style.flexDirection = "column";
   document.querySelector(selector).style.alignItems = "center";
+  document.querySelector(selector).style.paddingBottom = "30px";
 }
